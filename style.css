@@ -1,0 +1,60 @@
+/* SOAL NO. 4: Semua paragraf (<p>) berwarna biru */
+p {
+    color: blue;
+}
+
+/* SOAL NO. 6: Menggunakan ID untuk heading utama (<h1>) */
+/* SOAL NO. 4: Heading H1 berwarna merah dan rata tengah */
+#judul-utama {
+    color: red;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* SOAL NO. 4: Gambar profil memiliki lebar 300px dan border radius 50% */
+.profil {
+    width: 300px;
+    height: 300px; /* Tambahan agar bulatan sempurna */
+    object-fit: cover; /* Memastikan gambar mengisi area lingkaran */
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ccc;
+}
+
+/* SOAL NO. 4: Daftar hobi menggunakan font-family Verdana dengan ukuran 16px */
+.hobi-list {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* SOAL NO. 6: Class untuk teks berwarna hijau */
+/* Digunakan pada nama Bella Awwah Ashari di index.html */
+.teks-hijau {
+    color: green;
+    font-weight: bold;
+}
+
+/* SOAL NO. 6: Pseudo-class a:hover untuk mengubah warna link saat diarahkan kursor */
+a:hover {
+    color: orange; /* Warna akan berubah menjadi oranye */
+    text-decoration: underline;
+}
+
+/* Styling tambahan untuk elemen blockquote */
+blockquote {
+    background-color: #f0f0f0;
+    border-left: 5px solid darkblue;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* Styling tambahan untuk kode program (pre) */
+pre {
+    background-color: #333;
+    color: #eee;
+    padding: 15px;
+    border-radius: 5px;
+    overflow: auto;
+}
